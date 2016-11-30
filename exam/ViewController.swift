@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func getPath() -> String {
         let plistFileName = "data.plist"
 //        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
-        let paths = "/Users/techmaster/examplist/exam"
+        let paths = "/Users/admin/sourceApp/exam"
         let documentPath = paths as NSString
         let plistPath = documentPath.appendingPathComponent(plistFileName)
         
@@ -81,6 +81,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func exportData(_ sender: UIButton) {
+        
+//        for v in view.subviews{
+//            if v is UITextView {
+//                v.removeFromSuperview()
+//            }
+//        }
+        
 //        let plistPath = self.getPath()
 //        print("plistPath exportData = \(plistPath)")
 //        if FileManager.default.fileExists(atPath: plistPath) {
