@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>/Users/admin/Library/Developer/CoreSimulator/Devices/4AB762CF-82A6-49C2-9BCB-385D2AB94B9F/data/Containers/Data/Application/57BEC88C-9191-4EE7-8884-68BDD8D398B5/Library</string>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
