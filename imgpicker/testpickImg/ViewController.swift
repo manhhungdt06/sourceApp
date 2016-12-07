@@ -141,15 +141,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func saveImg(_ sender: UIButton) {
-//        saveImg(img: examImg, path: path)
-        
         let imgFilename = getDocumentsDirectory().appendingPathComponent("exam.png")
         saveImg(img: imageView.image!, url: imgFilename)
-//        saveImg(img: imageView.image!, path: path)
+
     }
 
     func saveImg(img: UIImage,url: URL) {
-//        let url = URL(fileURLWithPath: path)
         let pngImg = UIImagePNGRepresentation(img)
         do {
             try pngImg?.write(to: url)
